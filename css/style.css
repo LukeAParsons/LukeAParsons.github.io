@@ -187,3 +187,20 @@ section h2 {
 
 /* About page */
 .about-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; }
+
+/* Photographs: full-width panoramas and photos set beside text */
+.photo { margin: 0 0 2rem; }
+.photo img { width: 100%; border-radius: 3px; }
+.photo figcaption {
+  font-family: var(--sans); font-size: 0.85rem; color: var(--muted);
+  margin-top: 0.5rem; line-height: 1.4;
+}
+.text-figure {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 24rem);
+  gap: 2rem; align-items: start; margin-bottom: 1rem;
+}
+.text-figure p { margin-top: 0; }
+.text-figure .photo { margin: 0.35rem 0 0; }
+@media (max-width: 44rem) {
+  .text-figure { grid-template-columns: 1fr; gap: 1rem; }
+}
