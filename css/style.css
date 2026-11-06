@@ -204,3 +204,12 @@ section h2 {
 @media (max-width: 44rem) {
   .text-figure { grid-template-columns: 1fr; gap: 1rem; }
 }
+
+/* Research figures inside highlights */
+.highlight .photo { margin: 0.9rem 0 0.75rem; }
+.highlight .photo img { border-radius: 2px; background: #fff; }
+
+/* Home: current project feature */
+.feature { max-width: var(--measure); }
+.feature h3 { font-size: 1.2rem; margin: 0 0 0.5rem; }
+.feature p { margin: 0 0 0.5rem; }
