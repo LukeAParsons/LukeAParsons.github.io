@@ -213,3 +213,7 @@ section h2 {
 .feature { max-width: var(--measure); }
 .feature h3 { font-size: 1.2rem; margin: 0 0 0.5rem; }
 .feature p { margin: 0 0 0.5rem; }
+
+/* Figures placed directly in a section match the text column width */
+.block > .photo { max-width: var(--measure); }
+.block > .photo img { background: #fff; border-radius: 2px; }
